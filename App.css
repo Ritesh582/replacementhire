@@ -1,0 +1,446 @@
+/* HERO */
+.hero {
+  background: linear-gradient(180deg, rgba(0,78,146,0.85), rgba(0,46,92,0.85)), url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80") center/cover no-repeat;
+  height: 60vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: -51px;
+}
+.hero-box {
+  color: white;
+}
+
+/* ABOUT SECTION */
+.about-section {
+  background: white;
+  border-radius: 12px;
+}
+
+/* CATEGORIES */
+.category-pill {
+  font-size: 0.9rem;
+  padding: 0.4rem 0.8rem;
+  border-radius: 20px;
+}
+
+/* POST JOB */
+.post-job-card {
+  background: linear-gradient(180deg,#ffffff,#f8fbff);
+  border-radius: 12px;
+}
+.form-input {
+  background: #f4f7ff;
+  border: 1px solid #c9dafc;
+  border-radius: 8px;
+}
+/* Make all text in the Post Job form bold */
+.post-job-card .form-label,
+.post-job-card h4,
+.post-job-card small {
+  font-weight: 700; /* bold */
+}
+
+
+/* JOB CARDS */
+.job-card {
+  background: linear-gradient(180deg,#ffffff,#f6fbff);
+  border-radius: 12px;
+  padding: 22px;
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  transition: transform 0.3s ease, box-shadow 0.3s ease, background-color 0.2s ease;
+border-style: solid;
+  border-color: blue;
+}
+.interactive-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 30px rgba(0,0,0,0.15);
+  background-color: #e6f0ff;
+}
+.skill-pill {
+  background: #ddeeff;
+  padding: 2px 8px;
+  border-radius: 12px;
+  font-size: 0.8rem;
+}
+
+/* EMPTY STATE */
+.empty-card {
+  background: #f7f9fc;
+  border-radius: 12px;
+  padding: 2rem;
+}
+
+/* FOOTER */
+.footer {
+  background: linear-gradient(90deg,#004e92,#000428);
+  color: white;
+}
+.jobCard {
+  border: 1px solid #e8e8e8;
+  transition: 0.25s;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.jobCard:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 28px rgba(0,0,0,0.1);
+}
+
+.salaryTag {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 6px 12px;
+  background: #eef4ff;
+  color: #1a73e8;
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.skillTag {
+  background: #f0f0f0;
+  padding: 4px 10px;
+  margin-right: 5px;
+  border-radius: 8px;
+  font-size: 12px;
+}
+
+.applyBtn {
+  flex: 1;
+  background: #1a73e8;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.applyBtn:hover {
+  background: #0c5bd8;
+}
+
+.saveBtn {
+  flex: 1;
+  background: white;
+  border: 2px solid #1a73e8;
+  color: #1a73e8;
+  padding: 8px 14px;
+  font-weight: 600;
+  border-radius: 8px;
+  display: flex;
+  justify-content: center;
+  gap: 6px;
+  align-items: center;
+  transition: 0.2s;
+}
+
+.saveBtn:hover {
+  background: #eef4ff;
+}
+
+/* Modern Post Job UI */
+.post-job-card {
+  background: rgba(255, 255, 255, 0.9);
+  border: 2px solid #e7f0ff;
+  backdrop-filter: blur(8px);
+  transition: 0.3s ease;
+}
+
+.post-job-card:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 12px 30px rgba(0, 68, 146, 0.15);
+}
+
+.modern-input {
+  border-radius: 10px !important;
+  padding: 10px 14px !important;
+  border: 1.5px solid #b4c8e7 !important;
+  transition: 0.2s ease;
+}
+
+.modern-input:focus {
+  border-color: #0d6efd !important;
+  box-shadow: 0 0 8px rgba(0, 98, 255, 0.25);
+}
+
+.post-btn {
+  font-weight: 600;
+  background: linear-gradient(90deg, #007bff, #0055cc);
+}
+
+.post-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 20px rgba(0, 98, 255, 0.25);
+}
+
+
+/* Glassmorphism Form Container */
+.glass-form {
+  background: rgba(255, 255, 255, 0.12);
+  border: 1.5px solid rgba(255, 255, 255, 0.25);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 20px;
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.25);
+  transition: 0.3s ease;
+}
+
+.glass-form:hover {
+  transform: translateY(-4px);
+  box-shadow: 0 16px 40px rgba(0, 0, 0, 0.35);
+}
+
+/* Glassmorphism Inputs */
+.glass-input {
+  background: rgba(255, 255, 255, 0.18) !important;
+  border: 1.3px solid rgba(255, 255, 255, 0.35) !important;
+  color: #fff !important;
+  padding: 10px 14px !important;
+  border-radius: 12px !important;
+  transition: 0.25s ease;
+}
+
+.glass-input::placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.glass-input:focus {
+  border-color: #71aaff !important;
+  box-shadow: 0 0 10px rgba(120, 170, 255, 0.6) !important;
+}
+
+/* Submit Button */
+.glass-btn {
+  background: linear-gradient(90deg, #007bff, #00c6ff);
+  border: none;
+  color: white !important;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: 0.3s ease;
+  box-shadow: 0 6px 20px rgba(0, 150, 255, 0.4);
+}
+
+.jobs-wrapper {
+  max-height: 80vh;
+  overflow-y: auto;
+}
+
+.jobs-wrapper::-webkit-scrollbar {
+  width: 6px;
+}
+
+.jobs-wrapper::-webkit-scrollbar-thumb {
+  background: #007bff;
+  border-radius: 20px;
+}
+
+.glass-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 160, 255, 0.55);
+}
+
+.job-list-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding-right: 10px;
+  max-height: 85vh;
+  overflow-y: auto;
+}
+
+.job-list-container::-webkit-scrollbar {
+  width: 6px;
+}
+
+.job-list-container::-webkit-scrollbar-thumb {
+  background: #0d6efd;
+  border-radius: 10px;
+}
+
+.skillTag {
+  display: inline-block;
+  background: #e9f2ff;
+  border-radius: 8px;
+  padding: 3px 10px;
+  margin-right: 5px;
+  font-size: 12px;
+  color: #0d6efd;
+  font-weight: 500;
+}
+
+.salaryTag {
+  background: #f0f7ff;
+  padding: 6px 12px;
+  border-radius: 8px;
+  display: inline-block;
+  font-weight: bold;
+}
+
+.applyBtn {
+  background: #0d6efd;
+  color: white;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.saveBtn {
+  background: #f1f3f5;
+  border: none;
+  padding: 8px 16px;
+  border-radius: 10px;
+  font-weight: 600;
+}
+
+.left-half::-webkit-scrollbar,
+.right-half::-webkit-scrollbar {
+  width: 6px;
+}
+
+.left-half::-webkit-scrollbar-thumb {
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+
+.right-half::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.2);
+  border-radius: 10px;
+
+}
+/* Floating Icons */
+.floating-icon {
+  position: absolute;
+  font-size: 42px;
+  opacity: 0.25;
+  animation: float 6s ease-in-out infinite;
+}
+
+.icon-1 {
+  top: 30px;
+  left: 40px;
+}
+
+.icon-2 {
+  top: 90px;
+  right: 60px;
+  animation-delay: 1s;
+}
+
+.icon-3 {
+  bottom: 50px;
+  left: 80px;
+  animation-delay: 2s;
+}
+
+.icon-4 {
+  bottom: 70px;
+  right: 90px;
+  animation-delay: 3s;
+}
+.hero-pro {
+  position: relative;
+  min-height: 420px;
+  background-image: url("https://images.unsplash.com/photo-1521737604893-d14cc237f11d");
+  background-size: cover;
+  background-position: center;
+  color: white;
+}
+
+.hero-overlay {
+  position: absolute;
+  inset: 0;
+  background: linear-gradient(
+    to right,
+    rgba(0, 0, 0, 0.75),
+    rgba(0, 0, 0, 0.35)
+  );
+}
+
+.hero-content {
+  position: relative;
+  z-index: 2;
+  padding: 70px 0;
+}
+
+.hero-title {
+  font-size: 2.6rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.hero-subtitle {
+  margin-top: 15px;
+  font-size: 1.05rem;
+  max-width: 520px;
+  color: #e5e7eb;
+}
+
+.hero-actions {
+  margin-top: 25px;
+  display: flex;
+  gap: 14px;
+}
+
+.hero-stats {
+  margin-top: 25px;
+  display: flex;
+  gap: 22px;
+  font-size: 0.9rem;
+  color: #e5e7eb;
+}
+
+.hero-stats i {
+  color: #60a5fa;
+  margin-right: 6px;
+}
+
+.hero-info-card {
+  background: white;
+  color: #111827;
+  border-radius: 12px;
+  padding: 22px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.25);
+}
+
+.hero-info-card ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.hero-info-card li {
+  margin-bottom: 8px;
+  font-size: 0.9rem;
+}
+
+
+@keyframes float {
+  0% { transform: translateY(0px); }
+  50% { transform: translateY(-15px); }
+  100% { transform: translateY(0px); }
+}
+
+
+.left-half h2, .right-half h2 {
+  animation: fadeInDown 0.4s ease;
+}
+
+@keyframes fadeInDown {
+  from { opacity: 0; transform: translateY(-10px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+/* ICONS */
+.icon-large {
+  font-size: 2rem;
+}
